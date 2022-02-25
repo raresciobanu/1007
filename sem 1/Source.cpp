@@ -113,7 +113,7 @@ void main() {
 	//pointeri
 	printf("\n\n---pointeri---\n\n");
 	//sa presupunem ca variabila var1 se afla la adresa #22
-	int* pointer1 = &var1;
+	int* pointer1 = &var1; //variabila pointer este si ea creata la o adresa de memorie #3 si are ca valoarea #22
 	printf("pointer1=%p\n", pointer1);
 	printf("*pointer1=%d\n", *pointer1); //se numeste indirectare - adica se acceseaza zona de memorie salvata in pointer
 
