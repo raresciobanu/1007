@@ -101,6 +101,7 @@ void main() {
 
 			if (key >= 0) {
 				Animal x;
+				x.esteSetat = 0;
 				if (key >= nrAnimale) {
 					//alocam memorie noua daca cheia introdusa > nr de animale din fisier
 
@@ -139,6 +140,7 @@ void main() {
 		}
 		case 2: {
 			Animal x;
+			x.esteSetat = 0;
 			int key;
 			printf("Key: "); scanf("%d", &key);
 
@@ -166,6 +168,7 @@ void main() {
 		}
 		case 3: {
 			Animal x;
+			x.esteSetat = 0;
 			int key;
 			printf("Key: "); scanf("%d", &key);
 
@@ -195,6 +198,7 @@ void main() {
 		}
 		case 4: {
 			Animal x;
+			x.esteSetat = 0;
 			int key;
 			printf("Key: "); scanf("%d", &key);
 
